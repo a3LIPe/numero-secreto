@@ -1,0 +1,35 @@
+PS C:\Users\Home\numero-secreto> git commit --amend -m "Nova alteração no limite de tent[main 4f86624] Nova alteração no limite de tentativas
+ Date: Fri Jan 12 15:17:50 2024 -0300
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Home\numero-secreto> git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+nothing to commit, working tree clean
+PS C:\Users\Home\numero-secreto> git log
+Author: Matheus Elizalde <elizaldematheus112@gmail.com>
+
+    Nova alteração no limite de tentativas
+commit 63c6e840a0cae30c48df624adfc96314cd872c14
+Author: Matheus Elizalde <elizaldematheus112@gmail.com>
+Date:   Fri Jan 12 15:11:55 2024 -0300
+
+    Deixando o jogo muito fácil
+PS C:\Users\Home\numero-secreto> git pull
+Merge made by the 'ort' strategy.
+PS C:\Users\Home\numero-secreto> git remote -v
+origin  git@github.com:a3LIPe/numero-secreto.git (fetch)
+origin  git@github.com:a3LIPe/numero-secreto.git (push)
+PS C:\Users\Home\numero-secreto> git log
+commit b06f87428103397a046ee6ee63fc98a7676485c1 (HEAD -> main, origin/main, origin/HEAD)
+Merge: 778a3ab 8caad8c
+Author: Matheus Elizalde <elizaldematheus112@gmail.com>
+Date:   Mon Jan 15 16:49:23 2024 -0300
+
+    Merge branch 'main' of github.com:a3LIPe/numero-secreto
+
+commit 8caad8c89db6b047ca374e851e5a7bd4fcea07a0
+Author: Matheus E. Pereira <125841290+a3LIPe@users.noreply.github.com>
+Date:   Mon Jan 15 16:49:01 2024 -0300
